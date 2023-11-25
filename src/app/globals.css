@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.underSlide {
+  @apply bg-gradient-to-r from-accent to-accent bg-[length:0px_3px] hover:bg-[length:100%_3px] 
+    bg-left-bottom bg-no-repeat transition-[background-size] duration-300;
+}
